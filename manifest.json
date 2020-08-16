@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Old FB Declutter",
+  "version": "1.0.0",
+  "content_scripts": [
+  {
+    "matches": [
+      "*://facebook.com/*","*://www.facebook.com/*"
+    ],
+    "css": ["skin.css"]
+  }
+  ]
+}
